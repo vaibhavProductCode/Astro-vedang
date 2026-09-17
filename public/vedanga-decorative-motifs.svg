@@ -1,0 +1,83 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .motif-accent { fill: #c17a1a; }
+      .motif-primary { fill: #2d5016; }
+      .motif-text { font-family: Georgia, serif; fill: #2c2c2c; font-size: 12px; text-anchor: middle; }
+      @media (prefers-color-scheme: dark) {
+        .motif-accent { fill: #e8b55d; }
+        .motif-primary { fill: #c4d96f; }
+        .motif-text { fill: #f5f1eb; }
+      }
+    </style>
+  </defs>
+  <g transform="translate(100, 100)">
+    <text x="0" y="-50" class="motif-text" font-weight="600">Lotus Bloom</text>
+    <ellipse cx="0" cy="-25" rx="12" ry="20" class="motif-accent" opacity="0.8" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="20" class="motif-accent" opacity="0.7" transform="rotate(45)"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="20" class="motif-accent" opacity="0.8" transform="rotate(90)"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="20" class="motif-accent" opacity="0.7" transform="rotate(135)"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="20" class="motif-accent" opacity="0.8" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="20" class="motif-accent" opacity="0.7" transform="rotate(225)"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="20" class="motif-accent" opacity="0.8" transform="rotate(270)"/>
+    <ellipse cx="0" cy="-25" rx="12" ry="20" class="motif-accent" opacity="0.7" transform="rotate(315)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" class="motif-primary" opacity="0.6" transform="rotate(22.5)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" class="motif-primary" opacity="0.6" transform="rotate(67.5)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" class="motif-primary" opacity="0.6" transform="rotate(112.5)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" class="motif-primary" opacity="0.6" transform="rotate(157.5)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" class="motif-primary" opacity="0.6" transform="rotate(202.5)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" class="motif-primary" opacity="0.6" transform="rotate(247.5)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" class="motif-primary" opacity="0.6" transform="rotate(292.5)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" class="motif-primary" opacity="0.6" transform="rotate(337.5)"/>
+    <circle cx="0" cy="0" r="8" class="motif-primary"/>
+    <circle cx="0" cy="0" r="6" fill="#f5f1eb"/>
+  </g>
+  <g transform="translate(300, 100)">
+    <text x="0" y="-65" class="motif-text" font-weight="600">Sacred Mandala</text>
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#c17a1a" stroke-width="2" opacity="0.6"/>
+    <g id="petal">
+      <ellipse cx="0" cy="-35" rx="8" ry="12" class="motif-accent" opacity="0.5"/>
+    </g>
+    <use href="#petal" transform="rotate(30)"/>
+    <use href="#petal" transform="rotate(60)"/>
+    <use href="#petal" transform="rotate(90)"/>
+    <use href="#petal" transform="rotate(120)"/>
+    <use href="#petal" transform="rotate(150)"/>
+    <use href="#petal" transform="rotate(180)"/>
+    <use href="#petal" transform="rotate(210)"/>
+    <use href="#petal" transform="rotate(240)"/>
+    <use href="#petal" transform="rotate(270)"/>
+    <use href="#petal" transform="rotate(300)"/>
+    <use href="#petal" transform="rotate(330)"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#2d5016" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#c17a1a" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="0" cy="0" r="12" class="motif-primary" opacity="0.15"/>
+    <circle cx="0" cy="0" r="6" class="motif-accent"/>
+  </g>
+  <g transform="translate(500, 100)">
+    <text x="0" y="-60" class="motif-text" font-weight="600">Chakra Circle</text>
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#c17a1a" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#2d5016" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#c17a1a" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#2d5016" stroke-width="1" opacity="0.4"/>
+    <circle cx="0" cy="0" r="14" class="motif-accent"/>
+    <circle cx="0" cy="0" r="10" fill="#f5f1eb"/>
+    <line x1="0" y1="0" x2="0" y2="-45" stroke="#2d5016" stroke-width="1.5" opacity="0.4"/>
+    <line x1="0" y1="0" x2="45" y2="0" stroke="#2d5016" stroke-width="1.5" opacity="0.4"/>
+    <line x1="0" y1="0" x2="0" y2="45" stroke="#2d5016" stroke-width="1.5" opacity="0.4"/>
+    <line x1="0" y1="0" x2="-45" y2="0" stroke="#2d5016" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <text x="20" y="285" font-size="12" font-weight="600" class="motif-primary">Geometric Patterns</text>
+  <g transform="translate(100, 340)">
+    <circle cx="-10" cy="0" r="15" fill="none" stroke="#2d5016" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="10" cy="0" r="15" fill="none" stroke="#c17a1a" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="0" cy="17" r="15" fill="none" stroke="#8b7355" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <g transform="translate(300, 340)">
+    <path d="M -25,10 Q -15,0 -5,10 T 25,10" fill="none" stroke="#c17a1a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M -25,20 Q -15,10 -5,20 T 25,20" fill="none" stroke="#2d5016" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  <g transform="translate(500, 340)">
+    <path d="M 0,-15 L 4,-2 L 15,-2 L 7,6 L 10,18 L 0,10 L -10,18 L -7,6 L -15,-2 L -4,-2 Z" class="motif-accent"/>
+  </g>
+</svg>

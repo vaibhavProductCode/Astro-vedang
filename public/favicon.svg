@@ -1,0 +1,23 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="50" cy="50" r="50" fill="#2d5016"/>
+
+  <!-- Outer ring -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#c17a1a" stroke-width="2" opacity="0.8"/>
+
+  <!-- Kundli diamond shape -->
+  <path d="M50,20 L75,50 L50,80 L25,50 Z" fill="none" stroke="#c17a1a" stroke-width="2.5"/>
+
+  <!-- Inner circle (Moon) -->
+  <circle cx="50" cy="50" r="15" fill="#c17a1a" opacity="0.3"/>
+  <circle cx="50" cy="50" r="15" fill="none" stroke="#c17a1a" stroke-width="1.5"/>
+
+  <!-- Center dot -->
+  <circle cx="50" cy="50" r="5" fill="#c17a1a"/>
+
+  <!-- Star pattern at cardinal points -->
+  <circle cx="50" cy="22" r="3" fill="#c17a1a"/>
+  <circle cx="78" cy="50" r="3" fill="#c17a1a"/>
+  <circle cx="50" cy="78" r="3" fill="#c17a1a"/>
+  <circle cx="22" cy="50" r="3" fill="#c17a1a"/>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "name": "vedanga-nextjs",
+  "version": "1.0.0",
+  "description": "Premium Vedic Astrology Web Application",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "^0.0.1",
+    "ai": "^3.0.0",
+    "astronomy-engine": "^2.1.19",
+    "next": "^14.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sweph": "^2.10.3-8"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.3",
+    "@types/react": "19.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.0"
+  }
+}

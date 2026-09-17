@@ -1,0 +1,75 @@
+<svg viewBox="0 0 280 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .icon-accent { fill: #c17a1a; }
+      .icon-fill { fill: #2d5016; }
+      .icon-text { font-family: 'Segoe UI', sans-serif; font-size: 9px; fill: #2c2c2c; text-anchor: middle; }
+      .icon-circle { fill: none; stroke: #2d5016; stroke-width: 1.2; }
+      @media (prefers-color-scheme: dark) {
+        .icon-fill { fill: #c4d96f; }
+        .icon-accent { fill: #e8b55d; }
+        .icon-text { fill: #f5f1eb; }
+      }
+    </style>
+  </defs>
+  <g transform="translate(28, 50)">
+    <circle cx="0" cy="0" r="14" class="icon-accent" opacity="0.2"/>
+    <circle cx="0" cy="0" r="10" class="icon-accent"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Sun</text>
+  </g>
+  <g transform="translate(98, 50)">
+    <circle cx="0" cy="0" r="14" class="icon-circle" opacity="0.5"/>
+    <path d="M -6,-5 Q -9,0 -6,5 Q -1,7 3,3 Q 6,0 3,-3 Q -1,-7 -6,-5" class="icon-fill"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Moon</text>
+  </g>
+  <g transform="translate(168, 50)">
+    <circle cx="0" cy="0" r="14" class="icon-accent" opacity="0.2"/>
+    <circle cx="0" cy="0" r="10" class="icon-accent"/>
+    <path d="M -2,-6 L 3,-1 M -2,-1 L 3,3" stroke="#f5f1eb" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Mars</text>
+  </g>
+  <g transform="translate(238, 50)">
+    <circle cx="0" cy="0" r="10" class="icon-fill"/>
+    <circle cx="0" cy="-6" r="3" fill="none" stroke="#2d5016" stroke-width="1.2"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Mercury</text>
+  </g>
+  <g transform="translate(28, 150)">
+    <circle cx="0" cy="0" r="14" class="icon-accent" opacity="0.2"/>
+    <circle cx="0" cy="0" r="11" class="icon-accent"/>
+    <circle cx="0" cy="0" r="6" fill="#f5f1eb"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Jupiter</text>
+  </g>
+  <g transform="translate(98, 150)">
+    <circle cx="0" cy="0" r="10" class="icon-accent"/>
+    <path d="M 0,-8 L 0,5 M -5,0 L 5,0" stroke="#f5f1eb" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Venus</text>
+  </g>
+  <g transform="translate(168, 150)">
+    <circle cx="0" cy="0" r="11" class="icon-fill" opacity="0.7"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#2d5016" stroke-width="1.5" opacity="0.5"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Saturn</text>
+  </g>
+  <g transform="translate(238, 150)">
+    <path d="M -10,0 Q 0,-10 10,0 Q 0,10 -10,0" fill="none" stroke="#2d5016" stroke-width="1.5"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#2d5016" stroke-width="1.2"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Rahu</text>
+  </g>
+  <g transform="translate(28, 250)">
+    <path d="M -10,0 Q 0,10 10,0 Q 0,-10 -10,0" fill="none" stroke="#2d5016" stroke-width="1.5"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#2d5016" stroke-width="1.2"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Ketu</text>
+  </g>
+  <g transform="translate(98, 250)">
+    <circle cx="0" cy="0" r="12" class="icon-circle"/>
+    <text x="0" y="3" font-size="14" font-weight="bold" fill="#c17a1a" text-anchor="middle">⬆</text>
+    <text x="0" y="28" class="icon-text" font-weight="600">Lagna</text>
+  </g>
+  <g transform="translate(168, 250)">
+    <path d="M 0,-10 L 12,6 L -12,6 Z" class="icon-accent"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Exalted</text>
+  </g>
+  <g transform="translate(238, 250)">
+    <path d="M 0,6 L 12,-6 L -12,-6 Z" fill="none" stroke="#2d5016" stroke-width="1.5"/>
+    <text x="0" y="28" class="icon-text" font-weight="600">Debilitated</text>
+  </g>
+</svg>

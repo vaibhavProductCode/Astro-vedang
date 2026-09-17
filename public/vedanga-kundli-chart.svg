@@ -1,0 +1,65 @@
+<svg viewBox="0 0 500 550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .chart-border { stroke: #c17a1a; stroke-width: 2; fill: none; }
+      .chart-line { stroke: #2d5016; stroke-width: 1.2; fill: none; }
+      .chart-text { font-family: 'Segoe UI', sans-serif; fill: #2c2c2c; }
+      .chart-sign { font-size: 11px; font-weight: 600; text-anchor: middle; }
+      .chart-planet { font-size: 9px; font-weight: 500; text-anchor: middle; }
+      .chart-degree { font-size: 8px; opacity: 0.7; text-anchor: middle; }
+      @media (prefers-color-scheme: dark) {
+        .chart-text { fill: #f5f1eb; }
+      }
+    </style>
+  </defs>
+  <g transform="translate(250, 250)">
+    <path d="M 0,-120 L 120,-60 L 120,60 L 0,120 L -120,60 L -120,-60 Z" class="chart-border"/>
+    <path d="M 0,-120 L 60,-60 L 60,0 L 0,0 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="35" y="-75" class="chart-sign">♈</text>
+    <text x="35" y="-50" class="chart-text" font-size="8">House 1</text>
+    <text x="35" y="-35" class="chart-planet">☉ 15°</text>
+    <path d="M 60,0 L 120,-60 L 120,0 L 60,0 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="95" y="-55" class="chart-sign">♉</text>
+    <text x="95" y="-40" class="chart-text" font-size="8">House 2</text>
+    <text x="100" y="-25" class="chart-planet">☽ 8°</text>
+    <path d="M 60,0 L 120,60 L 60,60 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="95" y="35" class="chart-sign">♊</text>
+    <text x="95" y="50" class="chart-text" font-size="8">House 3</text>
+    <path d="M 60,60 L 120,60 L 0,120 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="60" y="95" class="chart-sign">♋</text>
+    <text x="60" y="110" class="chart-text" font-size="8">House 4</text>
+    <path d="M 0,120 L -60,60 L 0,60 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="-35" y="95" class="chart-sign">♌</text>
+    <text x="-35" y="110" class="chart-text" font-size="8">House 5</text>
+    <text x="-40" y="65" class="chart-planet">♃ 18°</text>
+    <path d="M -60,60 L 0,120 L -120,60 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="-95" y="95" class="chart-sign">♍</text>
+    <text x="-95" y="110" class="chart-text" font-size="8">House 6</text>
+    <path d="M -120,60 L -60,60 L -60,0 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="-95" y="35" class="chart-sign">♎</text>
+    <text x="-95" y="50" class="chart-text" font-size="8">House 7</text>
+    <text x="-100" y="65" class="chart-planet">♀ 12°</text>
+    <path d="M -60,0 L -120,-60 L -120,0 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="-95" y="-40" class="chart-sign">♏</text>
+    <text x="-95" y="-25" class="chart-text" font-size="8">House 8</text>
+    <path d="M -60,-60 L -120,-60 L -60,0 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="-95" y="-55" class="chart-sign">♐</text>
+    <text x="-95" y="-40" class="chart-text" font-size="8">House 9</text>
+    <text x="-100" y="-25" class="chart-planet">♂ 25°</text>
+    <path d="M -60,-60 L 0,-120 L 60,-60 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="0" y="-95" class="chart-sign">♑</text>
+    <text x="0" y="-80" class="chart-text" font-size="8">House 10</text>
+    <path d="M 0,-120 L -60,-60 L 0,0 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="-35" y="-75" class="chart-sign">♒</text>
+    <text x="-35" y="-60" class="chart-text" font-size="8">House 11</text>
+    <text x="-40" y="-35" class="chart-planet">♄ 20°</text>
+    <path d="M 0,0 L 60,-60 L 60,0 Z" fill="#c17a1a" opacity="0.05"/>
+    <text x="35" y="-55" class="chart-sign">♓</text>
+    <text x="35" y="-40" class="chart-text" font-size="8">House 12</text>
+    <circle cx="0" cy="0" r="20" fill="#c17a1a" opacity="0.2"/>
+    <circle cx="0" cy="0" r="20" class="chart-line"/>
+    <circle cx="0" cy="0" r="6" fill="#c17a1a"/>
+  </g>
+  <text x="250" y="30" font-size="16" font-weight="600" fill="#2d5016" text-anchor="middle" font-family="Georgia, serif">North Indian Kundli Chart</text>
+  <text x="20" y="540" font-size="10" class="chart-text" opacity="0.7">☉ Sun  ☽ Moon  ☿ Mercury  ♀ Venus  ♂ Mars  ♃ Jupiter  ♄ Saturn</text>
+</svg>

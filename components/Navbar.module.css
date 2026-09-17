@@ -1,0 +1,16 @@
+.navbar { background-color: var(--color-bg-light); border-bottom: 1px solid var(--color-border); position: sticky; top: 0; z-index: 100; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); }
+.container { max-width: 1200px; margin: 0 auto; padding: var(--spacing-md); display: flex; justify-content: space-between; align-items: center; gap: var(--spacing-lg); }
+.brand { display: flex; align-items: center; gap: var(--spacing-sm); font-size: 20px; font-weight: 700; color: var(--color-primary); font-family: var(--font-display); text-decoration: none; }
+.logo { width: 32px; height: 32px; color: var(--color-primary); }
+.brandName { letter-spacing: 0.5px; }
+.menu { display: flex; gap: var(--spacing-lg); }
+.link { color: var(--color-text); font-size: 14px; font-weight: 500; position: relative; padding-bottom: 4px; transition: var(--transition); }
+.link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: var(--color-accent); transition: var(--transition); }
+.link:hover::after { width: 100%; }
+.controls { display: flex; align-items: center; gap: var(--spacing-md); }
+.themeToggle { background: none; border: none; font-size: 20px; cursor: pointer; padding: 8px; border-radius: var(--radius-sm); transition: var(--transition); }
+.themeToggle:hover { background-color: var(--color-accent); opacity: 0.1; }
+.cta { padding: 12px 24px; border-radius: var(--radius-sm); }
+.menuToggle { display: none; flex-direction: column; gap: 6px; background: none; border: none; padding: 8px; cursor: pointer; }
+.menuToggle span { width: 24px; height: 2px; background-color: var(--color-primary); border-radius: var(--radius-sm); transition: var(--transition); }
+@media (max-width: 768px) { .menu { position: absolute; top: 70px; left: 0; right: 0; background-color: var(--color-bg-light); flex-direction: column; gap: 0; border-bottom: 1px solid var(--color-border); display: none; padding: var(--spacing-md); max-height: 60vh; overflow-y: auto; } .menu.active { display: flex; } .link { padding: var(--spacing-md) 0; border-bottom: 1px solid var(--color-border); } .menuToggle { display: flex; } .container { gap: var(--spacing-sm); } .cta { display: none; } }

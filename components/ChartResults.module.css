@@ -1,0 +1,52 @@
+.section { padding: 80px 0; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 var(--spacing-md); display: flex; flex-direction: column; gap: var(--spacing-2xl); }
+.summaryInfo { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-lg); margin-bottom: var(--spacing-lg); padding-bottom: var(--spacing-lg); border-bottom: 1px solid var(--color-border); }
+.infoItem { display: flex; justify-content: space-between; }
+.label { font-weight: 600; color: var(--color-primary); }
+.value { color: var(--color-accent); font-weight: 500; }
+.summaryText { font-size: 15px; line-height: 1.8; color: var(--color-text); }
+.astrologySection h3 { color: var(--color-primary); margin-bottom: var(--spacing-lg); }
+.summaryGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-lg); }
+.cardLabel { font-size: 12px; font-weight: 600; color: var(--color-primary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: var(--spacing-sm); }
+.cardValue { font-size: 24px; font-weight: 700; color: var(--color-accent); margin-bottom: var(--spacing-sm); }
+.planetaryGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: var(--spacing-md); }
+.planetCard { background: linear-gradient(135deg, rgba(45, 80, 22, 0.05), rgba(193, 122, 26, 0.05)); border: 1px solid var(--color-border); border-radius: var(--radius-sm); padding: var(--spacing-md); text-align: center; }
+.planetName { font-weight: 600; font-size: 13px; color: var(--color-primary); text-transform: capitalize; margin-bottom: 4px; }
+.planetSign { font-size: 28px; color: var(--color-accent); margin-bottom: 4px; }
+.planetDegree { font-size: 14px; font-weight: 600; color: var(--color-text); }
+.planetHouse { font-size: 12px; color: var(--color-text); opacity: 0.7; margin-top: 4px; }
+.retrograde { font-size: 11px; color: #c1351a; font-weight: 600; margin-top: 4px; }
+.housesSection { display: flex; flex-direction: column; gap: var(--spacing-lg); }
+.ascendantCard { background: linear-gradient(135deg, rgba(193, 122, 26, 0.15), rgba(45, 80, 22, 0.05)); border: 2px solid var(--color-accent); border-radius: var(--radius-md); padding: var(--spacing-lg); text-align: center; margin-bottom: var(--spacing-md); }
+.ascendantLabel { font-size: 12px; font-weight: 600; color: var(--color-primary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: var(--spacing-sm); }
+.ascendantValue { font-size: 28px; font-weight: 700; color: var(--color-accent); margin-bottom: var(--spacing-md); }
+.housesGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: var(--spacing-md); }
+.houseCard { background: var(--color-bg-light); border: 1px solid var(--color-border); border-radius: var(--radius-sm); padding: var(--spacing-md); text-align: center; }
+.houseNumber { font-weight: 700; font-size: 16px; color: var(--color-accent); }
+.houseName { font-size: 12px; font-weight: 600; color: var(--color-primary); margin-top: 4px; }
+.houseSign { font-size: 20px; color: var(--color-text); margin-top: 4px; }
+.aspectsInfo { font-size: 14px; color: var(--color-text); opacity: 0.7; margin-bottom: var(--spacing-lg); font-style: italic; }
+.aspectsList { display: flex; flex-direction: column; gap: var(--spacing-md); }
+.aspectItem { display: flex; justify-content: space-between; align-items: center; padding: var(--spacing-md); background: linear-gradient(135deg, rgba(45, 80, 22, 0.03), rgba(193, 122, 26, 0.03)); border-left: 4px solid var(--color-accent); border-radius: var(--radius-sm); }
+.aspectItem.aspect-conjunction { border-left-color: #2d5016; }
+.aspectItem.aspect-sextile { border-left-color: #4a7c2c; }
+.aspectItem.aspect-square { border-left-color: #c1351a; }
+.aspectItem.aspect-trine { border-left-color: #2d5016; }
+.aspectItem.aspect-opposition { border-left-color: #c1351a; }
+.aspectPlanets { display: flex; align-items: center; gap: var(--spacing-md); font-weight: 600; }
+.aspectType { background: var(--color-primary); color: var(--color-bg-light); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+.aspectAngle { font-size: 13px; color: var(--color-text); opacity: 0.7; }
+.chartControls { display: flex; gap: var(--spacing-md); margin-bottom: var(--spacing-lg); justify-content: center; }
+.chartControls button { padding: 8px 16px; border: 2px solid var(--color-primary); background-color: transparent; color: var(--color-primary); border-radius: var(--radius-sm); cursor: pointer; font-weight: 600; font-size: 13px; transition: var(--transition); }
+.chartControls button.active { background-color: var(--color-primary); color: var(--color-bg-light); }
+.chartControls button:hover { background-color: var(--color-primary); color: var(--color-bg-light); }
+.chart { width: 100%; max-width: 400px; height: auto; margin: 0 auto; display: block; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); }
+.insightCards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-lg); margin-bottom: var(--spacing-xl); }
+.insightCard { padding: var(--spacing-lg); background: linear-gradient(135deg, rgba(193, 122, 26, 0.1), rgba(45, 80, 22, 0.05)); border-left: 4px solid var(--color-accent); border-radius: var(--radius-sm); }
+.insightCard h4 { font-size: 15px; font-weight: 600; color: var(--color-primary); margin-bottom: var(--spacing-sm); }
+.insightCard p { font-size: 13px; line-height: 1.6; color: var(--color-text); opacity: 0.8; margin: 0; }
+.interpretation { font-size: 15px; line-height: 1.8; color: var(--color-text); }
+.interpretation p { margin-bottom: var(--spacing-md); }
+.actions { display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap; }
+.actions button { min-width: 150px; }
+@media (max-width: 768px) { .section { padding: 40px 0; } .summaryInfo { grid-template-columns: 1fr; } .chartControls { flex-direction: column; } .chartControls button { width: 100%; } .summaryGrid { grid-template-columns: 1fr; } .planetaryGrid { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); } .actions { flex-direction: column; } .actions button { min-width: unset; } }

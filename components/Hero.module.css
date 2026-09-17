@@ -1,0 +1,10 @@
+.hero { padding: 80px 0; background: linear-gradient(135deg, var(--color-bg-light) 0%, var(--color-bg-light) 100%); }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 var(--spacing-md); display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-2xl); align-items: center; }
+.content h1 { margin-bottom: var(--spacing-lg); color: var(--color-primary); }
+.subtitle { font-size: 18px; color: var(--color-text); opacity: 0.8; margin-bottom: var(--spacing-xl); }
+.ctas { display: flex; gap: var(--spacing-md); flex-wrap: wrap; }
+.ctas button { flex: 1; min-width: 180px; }
+.visual { display: flex; justify-content: center; align-items: center; animation: float 6s ease-in-out infinite; }
+@keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(20px); } }
+.kundli { width: 300px; height: 300px; filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1)); }
+@media (max-width: 768px) { .hero { padding: 40px 0; } .container { grid-template-columns: 1fr; gap: var(--spacing-lg); } .visual { order: -1; } .kundli { width: 200px; height: 200px; } .ctas { flex-direction: column; } .ctas button { min-width: unset; } }

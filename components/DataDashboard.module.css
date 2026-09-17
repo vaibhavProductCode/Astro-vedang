@@ -1,0 +1,251 @@
+.container {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #2d5016;
+}
+
+.header h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.75rem;
+  color: #2d5016;
+}
+
+.subtitle {
+  margin: 0;
+  color: #c17a1a;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(45, 80, 22, 0.08);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(45, 80, 22, 0.12);
+}
+
+.cardTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #2d5016;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #c17a1a;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dataGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.dataItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: rgba(45, 80, 22, 0.04);
+  border-radius: 6px;
+  border-left: 3px solid #c17a1a;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #c17a1a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.value {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2d5016;
+}
+
+/* Data Table Styles */
+.dataTable {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0;
+  background: linear-gradient(135deg, #2d5016 0%, #3d6b1f 100%);
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6 {
+  padding: 0 0.5rem;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  background: white;
+  transition: background 0.2s ease;
+  align-items: center;
+}
+
+.tableRow:hover {
+  background: rgba(193, 122, 26, 0.05);
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+/* Dasha Info Styles */
+.dashaInfo {
+  margin-top: 1.5rem;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: rgba(45, 80, 22, 0.05);
+  border-radius: 6px;
+  border-left: 3px solid #c17a1a;
+}
+
+.subTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d5016;
+  margin: 1.5rem 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.note {
+  background: rgba(193, 122, 26, 0.08);
+  border-left: 4px solid #c17a1a;
+  padding: 1.5rem;
+  border-radius: 6px;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.note p {
+  margin: 0;
+  color: #2d5016;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .tableHeader,
+  .tableRow {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .col4, .col5, .col6 {
+    display: none;
+  }
+
+  .infoGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .dataGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5rem;
+  }
+
+  .cardTitle {
+    font-size: 1.1rem;
+  }
+
+  .tableHeader,
+  .tableRow {
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.85rem;
+  }
+
+  .col3, .col4, .col5, .col6 {
+    display: none;
+  }
+
+  .header h2 {
+    font-size: 1.4rem;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1rem;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .tableHeader,
+  .tableRow {
+    grid-template-columns: 1fr;
+    padding: 0.75rem;
+  }
+
+  .col1, .col2, .col3, .col4, .col5, .col6 {
+    padding: 0;
+  }
+
+  .header h2 {
+    font-size: 1.2rem;
+  }
+
+  .dataItem {
+    padding: 0.75rem;
+  }
+}
