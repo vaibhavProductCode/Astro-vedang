@@ -22,7 +22,7 @@ export default function BirthChartForm({ onSubmit }: BirthChartFormProps) {
   const [locationSuggestions, setLocationSuggestions] = useState<LocationResult[]>([])
   const [showSuggestions, setShowSuggestions] = useState(false)
   const [selectedLocation, setSelectedLocation] = useState<LocationResult | null>(null)
-  const debounceTimer = useRef<NodeJS.Timeout>()
+  const debounceTimer = useRef<NodeJS.Timeout | null>(null)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target
