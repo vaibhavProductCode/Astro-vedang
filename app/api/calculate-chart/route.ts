@@ -179,13 +179,13 @@ export async function POST(req: NextRequest) {
 
     // Planet mappings for astronomy-engine
     const planetList = [
-      { name: 'sun', body: 'Sun' },
-      { name: 'moon', body: 'Moon' },
-      { name: 'mercury', body: 'Mercury' },
-      { name: 'venus', body: 'Venus' },
-      { name: 'mars', body: 'Mars' },
-      { name: 'jupiter', body: 'Jupiter' },
-      { name: 'saturn', body: 'Saturn' }
+      { name: 'sun', body: Astronomy.Body.Sun },
+      { name: 'moon', body: Astronomy.Body.Moon },
+      { name: 'mercury', body: Astronomy.Body.Mercury },
+      { name: 'venus', body: Astronomy.Body.Venus },
+      { name: 'mars', body: Astronomy.Body.Mars },
+      { name: 'jupiter', body: Astronomy.Body.Jupiter },
+      { name: 'saturn', body: Astronomy.Body.Saturn }
     ]
 
     const rawPlanets: Record<string, any> = {}
