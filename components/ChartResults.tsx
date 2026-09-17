@@ -37,6 +37,8 @@ interface ChartData {
       longitude: number
       timezone: string
     }
+    houses?: any
+    aspects?: any[]
   }
   dashaData?: {
     nakshatra: string
@@ -102,7 +104,7 @@ export default function ChartResults({ data, onNewChart }: ChartResultsProps) {
             </div>
           </div>
 
-          {chartData && <ChartDataVisualization chartData={chartData} />}
+          {chartData && <ChartDataVisualization chartData={{ planets: chartData, houses: chartData.houses, aspects: chartData.aspects }} />}
 
           {data.dashaData && (
             <DashaTimeline
@@ -301,7 +303,7 @@ export default function ChartResults({ data, onNewChart }: ChartResultsProps) {
               )}
             </div>
 
-            {chartData && <ChartDataVisualization chartData={chartData} />}
+            {chartData && <ChartDataVisualization chartData={{ planets: chartData, houses: chartData.houses, aspects: chartData.aspects }} />}
 
             {!data.dashaData && (
               <div className="card" style={{ backgroundColor: 'rgba(255, 193, 7, 0.1)', borderLeft: '4px solid #ffc107', padding: '1rem' }}>

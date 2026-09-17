@@ -31,7 +31,7 @@ export default function BirthChartForm({ onSubmit }: BirthChartFormProps) {
 
     // Handle location search with debounce
     if (name === 'birthPlace') {
-      clearTimeout(debounceTimer.current)
+      if (debounceTimer.current) clearTimeout(debounceTimer.current)
       if (value.length < 2) {
         setLocationSuggestions([])
         setShowSuggestions(false)

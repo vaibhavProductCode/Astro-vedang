@@ -2,14 +2,8 @@
 
 import styles from './ChartDataVisualization.module.css'
 
-interface ChartData {
-  planets?: Record<string, any>
-  houses?: any
-  aspects?: any[]
-}
-
 interface Props {
-  chartData: ChartData
+  chartData: any
 }
 
 const zodiacSymbols: Record<string, string> = {
